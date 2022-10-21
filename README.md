@@ -7,3 +7,14 @@
 <h2>Preview</h2>
 
 <img src="img/preview.png">
+
+<h2>Video preview</h2>
+
+---
+
+### Default actions on Calculator: +, -, *, /, =, Ac
+
+#### Error when dividing by 0
+
+![myGif](gif/video.gif)
+
