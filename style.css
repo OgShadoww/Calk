@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
 body {
     background-color: #222222;
     color: white;
@@ -67,4 +69,39 @@ body {
   
   .btn.bg-orange {
     background-color: #ff9501;
+}
+
+.preview-project {
+  font-family: 'Poppins';
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.line {
+  width: 300px;
+  height: 1px;
+  background-color: #fff;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.conteiner {
+  width: 50%;
+  border-right: 1px solid #000;
+  border-left: 1px solid #000;
+}
+
+@media(max-width:700px) {
+  .conteiner {
+    border: none;
+    width: 100%;
   }
+}
